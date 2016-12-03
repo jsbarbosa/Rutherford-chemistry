@@ -1,0 +1,1 @@
+pyinstaller --windowed --icon=icon.ico --hidden-import=scipy.linalg.cython_blas --hidden-import=scipy.linalg.cython_lapack Rutherford.py
